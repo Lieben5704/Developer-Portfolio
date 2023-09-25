@@ -2,15 +2,6 @@ import Layout from '../components/MyLayout';
 
 const About = () => (
   <Layout>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VDXE8N8ND1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VDXE8N8ND1');
-</script>
     <div className="container">
       {/* About Me section */}
       <h2 className="mt-5 mb-4">About Me</h2>
