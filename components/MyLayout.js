@@ -11,7 +11,7 @@ const Layout = (props) => {
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-N1V5G7F3BN');
+  gtag('config', 'G-VDXE8N8ND1');
 </script>
 
   return (
