@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 const Layout = (props) => {
 
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-N1V5G7F3BN"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VDXE8N8ND1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
