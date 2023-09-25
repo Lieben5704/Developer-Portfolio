@@ -3,6 +3,15 @@ import Image from 'react-bootstrap/Image';
 
 const Contact = () => (
   <Layout>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N1V5G7F3BN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N1V5G7F3BN');
+</script>
     <div className="container">
       {/* Circle image */}
       <div className="circle-image-container mt-3 text-center">
