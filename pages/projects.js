@@ -2,6 +2,15 @@ import Layout from '../components/MyLayout';
 
 const Projects = () => (
   <Layout>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N1V5G7F3BN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N1V5G7F3BN');
+</script>
     <div className="container">
       {/* Projects heading */}
       <h2 className="text-center mt-5 mb-4">Projects</h2>
