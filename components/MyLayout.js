@@ -4,16 +4,14 @@ import { useEffect } from 'react';
 
 const Layout = (props) => {
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VDXE8N8ND1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VDXE8N8ND1');
-</script>
-
+  useEffect(() => {
+    // Google Analytics script
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VDXE8N8ND1');
+  }, []);
+  
   return (
     <div>
       <Head>
@@ -25,16 +23,6 @@ const Layout = (props) => {
           crossOrigin="anonymous"
         />
         
-        {/* Google Analytics script */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7NYJNRKZT"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-B7NYJNRKZT');
-          `}
-        </script>
       </Head>
       <div>
         {/* Header component */}
