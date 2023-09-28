@@ -1,6 +1,14 @@
 import Head from "next/head";
 import Header from "./Header";
 
+useEffect(() => {
+    // Google Analytics script
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VDXE8N8ND1');
+  }, []);
+
 const Layout = (props) => {
   return (
     <div>
@@ -13,16 +21,6 @@ const Layout = (props) => {
           crossOrigin="anonymous"
         />
 
-        {/* Google Analytics script */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-VDXE8N8ND1"></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-VDXE8N8ND1');
-          `}
-        </script>
       </Head>
       <div>
         {/* Header component */}
