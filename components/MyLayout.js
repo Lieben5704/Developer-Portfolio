@@ -3,14 +3,6 @@ import Header from "./Header";
 import { useEffect } from 'react';
 
 const Layout = (props) => {
-
-  useEffect(() => {
-    // Google Analytics script
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-VDXE8N8ND1');
-  }, []);
   
   return (
     <div>
