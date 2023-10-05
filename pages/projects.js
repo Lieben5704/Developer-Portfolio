@@ -17,7 +17,7 @@ const Projects = () => (
                 App that searches through the Itunes API. This App is built with Express & React.js
               </p>
               {/* Link to project on Github */}
-              <a href="https://github.com/Lieben5704/ITunes_Capstone" className="btn btn-primary">
+              <a href="https://github.com/Lieben5704/Itunes-Application" className="btn btn-primary">
                 View on Github
               </a>
             </div>
@@ -34,7 +34,7 @@ const Projects = () => (
                 Simple Minesweeper game built with React.js.
               </p>
               {/* Link to project on Github */}
-              <a href="https://github.com/Lieben5704/L2T12-Capstone_React_Game" className="btn btn-primary">
+              <a href="https://github.com/Lieben5704/Flags-and-Mines" className="btn btn-primary">
                 View on Github
               </a>
             </div>
