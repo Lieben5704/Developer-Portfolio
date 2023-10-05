@@ -8,12 +8,7 @@ const About = () => (
       <div className="row">
         <div className="col-md-12">
           <p className="mb-4">
-            I'm Matthew Liebenberg, a professional Fullstack Web developer and IT support engineer.
-            I thrive on challenges and find the tech world incredibly captivating.
-            Throughout my career, I have taken on diverse technical responsibilities, including Cybersecurity, Linux Administration, and HelpDesk IT Support.
-            Although my current focus is Full Stack Web development, I'm aware that the journey to achieving my fitness goals and increased muscle mass can be time-consuming.
-            Nevertheless, I genuinely enjoy the process and find it both fulfilling and rewarding.
-            The prospect of building a successful career in Full Stack Web Development is a strong motivation for me, and I derive immense pleasure from continuously learning and creating practical solutions.
+            I'm Matthew Liebenberg, a professional Fullstack Web developer and IT support engineer. I thrive on challenges and find the tech world incredibly captivating. Throughout my career, I have taken on diverse technical responsibilities, including Cybersecurity, Linux Administration, and HelpDesk IT Support. I'm proud to share that I have recently completed my Fullstack Web Development bootcamp at Hyperion Dev, where I honed my skills and gained a deep understanding of web development technologies and practices. Although my current focus is Full Stack Web development, I'm aware that the journey to achieving my fitness goals and increased muscle mass can be time-consuming. Nevertheless, I genuinely enjoy the process and find it both fulfilling and rewarding. The prospect of building a successful career in Full Stack Web Development is a strong motivation for me, and I derive immense pleasure from continuously learning and creating practical solutions.
           </p>
         </div>
       </div>
