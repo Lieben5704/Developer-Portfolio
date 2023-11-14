@@ -14,7 +14,7 @@ export default () => (
       {/* Circle image */}
       <div className="circle-image-container mt-3">
         <Image
-          src="https://media.licdn.com/dms/image/D4D03AQG3XNScvgHsQw/profile-displayphoto-shrink_200_200/0/1697539151675?e=1705536000&v=beta&t=ljIYw0k3-m1ooVVUj0Wwpfczgn5vc0mfypg7GkE98s4"
+          src="https://media.licdn.com/dms/image/D4D03AQG3XNScvgHsQw/profile-displayphoto-shrink_800_800/0/1697539151675?e=1705536000&v=beta&t=ySDCaoDRcERpXbwMEy0nJth-FsmWpV7mqq4SmTUr95M"
           thumbnail
           className="rounded-circle"
         />
